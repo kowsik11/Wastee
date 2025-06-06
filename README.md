@@ -1,23 +1,26 @@
-##                          Hi there 👋 , I am Sai Sharan
+# LinkHub Turbo Search
 
-- 🔭 I’m currently working on a new Decentralized Application for faster transactions.
--  🌱 I’m currently learning Solidity
--  💬 Ask me about WEB 3.0, NFT's..
--  ⚡ Fun fact: I'm a syntax ninja, debugging the world one line of code at a time.
+Monorepo providing a simple link search service backed by Elasticsearch.
 
+## Quick Start
+```bash
+pnpm install
+docker-compose up
+```
+API will be on `http://localhost:4000` and web on `http://localhost:3000`.
 
-    
-<!--
-**saisharan0103/saisharan0103** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Environment Variables
+- `ELASTIC_URL` - Elasticsearch URL
+- `JWT_SECRET` - secret for HS256 tokens
+- `PORT` - API port
 
-Here are some ideas to get you started:
+## Scripts
+- `pnpm dev` – run all apps in dev mode
+- `pnpm test` – run Jest
+- `pnpm lint` – eslint
+- `pnpm build` – tsc and next build
 
+## Swagger & GraphQL
+Swagger available at `/api-docs` (not implemented) and GraphQL Playground at `http://localhost:4000/graphql`.
 
-
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-
--->
+![demo](demo.gif)

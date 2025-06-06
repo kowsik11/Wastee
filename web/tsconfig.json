@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "allowJs": true
+  },
+  "include": ["app/**/*"],
+  "exclude": ["node_modules"]
+}
