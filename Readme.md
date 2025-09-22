@@ -1,136 +1,124 @@
-# 👋 Hey, I'm Sai — Builder • Engineer • Indie Founder
+<p align="center">
+  <a href="https://github.com/Saisharan0099">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=800&lines=Building+AI-First+Tools+That+Actually+Work;Automation+%E2%9A%A1+Efficiency+%E2%9C%85+Real-World+Impact;From+Prompt+to+Product+%7C+From+Problem+to+Prototype;Shipping+Fast+%E2%80%94+Solving+Hard+Problems+with+Code" alt="Typing SVG" />
+  </a>
+</p>
 
-I'm the kind of person who builds the tools everyone else wishes existed.
-
-Deeply technical. Relentlessly entrepreneurial. I design, develop, and ship AI-first products end-to-end — from prompt to product, from backend to UX. I believe in building fast, shipping sharp, and solving real-world problems with software that *actually* works.
+<h1 align="center">👋 Hey, I'm Sai — Builder • Engineer • Indie Founder</h1>
+<h3 align="center">I build the tools everyone else wishes existed — fast, sharp, and actually useful.</h3>
 
 ---
 
-## ⚡ What I'm Doing Now
+## ⚡ What I’m Doing Now
 
-### 🧠 Building AI Agents that Work in the Real World  
-- Building **enterprise-grade contract agents** for sourcing, procurement & compliance  
-- Architected an **AI-powered contract quality checker** using a standardized 30-point checklist  
-- Built `SAI_TMob_MasterAgent_V2` — a Super-Agent that orchestrates 8+ sub-agents with humanized prompt design  
-- Outputs structured Excel, Word, and PDF reports using FastAPI + OpenAI + Gemini + cell-level Excel control  
+### 🧠 Building AI Agents That Work in the Real World  
+- 📝 Enterprise-grade **contract agents** for sourcing, procurement & compliance  
+- 🧾 **Contract QA checker** using a 30-point compliance checklist  
+- 🧠 `SAI_TMob_MasterAgent_V2` — orchestrates 8+ sub-agents with humanized prompt design  
+- 📊 Outputs Excel, Word, and PDF reports (FastAPI + OpenAI + Gemini)
 
 ### 📊 Automating Finance Workflows for CA Firms  
-- Turning messy weekly investment data into clean **Excel + PDF dashboards**  
-- Parses loan/investment inflows, generates **bar charts, pie charts, and line graphs**, and auto-advisory insights  
-- Designed for 30–40 domestic/international clients — fully automated insight reporting using Python  
+- 🔄 Transforms messy weekly data into clean Excel + PDF dashboards  
+- 📈 Auto-generates charts (bar, pie, line) and commentary using Python  
+- 🧮 Fully automated weekly insight delivery across 30–40 clients
 
-### 🤖 Smart LinkedIn EasyApply Bot  
-- Built a browser automation bot using **Playwright + YAML + persistent memory**  
-- Learns new questions from job listings, stores Q&A pairs in `additionalQuestions.yaml`, and answers them automatically  
-- Adds custom delays + stability layers for slow LinkedIn pages — AI-assisted job applications that *actually* work  
+### 🤖 LinkedIn EasyApply Bot  
+- 🧠 Browser automation bot using **Playwright + YAML**  
+- 🗂️ Learns Q&A from job listings and answers them automatically  
+- 🛡️ Adds human-like delays & memory for smart job applications
 
-### 📦 Shipping End-to-End MVPs Using Codex + Next.js  
-- Built **Ravan** — an idea-to-app generator powered by OpenAI Codex  
-- Full live code preview, AI-powered app generation, and prompt-based UI editing  
-- Frontend: Next.js + Tailwind · Backend: Codex prompts · Hosting: GCP  
+### ⚙️ End-to-End MVPs Using Codex + Next.js  
+- ⚡ Built **Ravan** — an AI-powered app generator  
+- 💻 Live code preview, prompt-based UI editing  
+- 🧩 Frontend: Next.js + Tailwind · Backend: Codex · Hosting: GCP
 
 ### 🔗 LinkHub – Team Knowledge, Reinvented  
-- Lightweight internal link management tool for teams  
-- Stores Figma, Notion, Drive, GitHub links with tags and fast AI search  
-- Clean UI, keyboard-first UX, built for power users  
+- 📚 Store internal links (Figma, Notion, GitHub) with tags + AI search  
+- ⌨️ Keyboard-first UX for fast teams  
+- 🎯 Built for internal usage, power-user centric
 
 ### 🤝 CollabMatch – Creator × Brand Matching Engine  
-- Platform that matches social creators with brands  
-- Built custom matching logic, brand onboarding flow, and category-smart search  
-- Future roadmap includes promo campaign tracking & influencer analytics
-
----
-
-## 🔧 Tech Stack I Work With
-
-**Languages & Backend**  
-`Python` · `FastAPI` · `JavaScript` · `Node.js` · `YAML` · `Bash`
-
-**AI & Automation**  
-`OpenAI API` · `Gemini API` · `LangChain` · `Pandas` · `Playwright` · `PyMuPDF`
-
-**Frontend & Tools**  
-`Next.js` · `TailwindCSS` · `React` · `Lottie` · `Figma (design)` · `Framer Motion`
-
-**Infra & Hosting**  
-`GCP` · `Render` · `Vercel` · `Supabase` · `MongoDB` · `Google Sheets API`
+- 🎯 Custom logic for creator-brand pairing  
+- 🏷️ Smart search and onboarding flows  
+- 🔜 Roadmap: influencer analytics + campaign tracking
 
 ---
 
 ## 🛠️ Projects I’m Proud Of
 
 ### 🧾 Contract Quality Checker Agent  
-> AI-powered legal QA tool for sourcing contracts  
-- Ingests procurement, IT, SaaS, and vendor agreements  
-- Checks 30+ compliance & quality criteria  
-- Exports Excel files with annotated issues and clause-level diagnostics  
-- Used by sourcing/legal teams as a second pair of expert eyes  
+- AI-powered legal QA tool for procurement/IT/vendor contracts  
+- 30+ compliance checks with annotated Excel reports  
+- Used by sourcing & legal teams as a second pair of expert eyes
 
-### 🗃️ Excel MCP Server (Python + FastAPI)  
-> Generates Excel files from AI output with full cell styling, formatting, and formulas  
-- Enables cell-level control via `CellInfo`  
-- Supports dynamic report generation  
-- Integrated with my agents for rich Excel exports  
+### 📊 Excel MCP Server  
+- Python + FastAPI backend that generates styled Excel files  
+- Cell-level formatting, formulas, and structure  
+- Integrated with agents for real-time report generation
 
-### 🎯 Ravan – Prompt to App Generator  
-> Converts natural language app ideas into live working apps  
-- Prompt UI → Next.js + Tailwind app preview  
-- Powered by Codex for backend and component generation  
-- MVP done; working on deploy + save flow  
+### ⚡ Ravan — Prompt to App Generator  
+- Converts app ideas into working apps using Codex  
+- Live code previews, prompt-to-component builder  
+- MVP shipped, working on save/deploy flow
 
-### 🧑‍💼 EasyApplyJobsBot  
-> Automates job applications on LinkedIn  
-- Answers job-specific questions using YAML knowledge base  
-- Avoids bans with human-like delays and scrolling  
-- Smart memory — learns and adapts with each run  
+### 🤖 EasyApplyJobsBot  
+- Automates job applications via LinkedIn  
+- YAML-based question/answer knowledge base  
+- Stability layers to prevent detection, adapts as it learns
 
-### 📚 CA Weekly Investment Tracker  
-> Replaces Excel+manual PDF chart reporting for Chartered Accountants  
-- Parses raw client data weekly  
-- Generates multi-chart infographics with commentary  
-- Exports as PDF reports shared with clients  
+### 📈 CA Investment Tracker  
+- Replaces manual Excel reporting with automated charts  
+- Weekly parsing of client investment data  
+- Generates PDF reports with auto-advisory insights
 
 ---
 
-## 💡 Why I Build
+## 💻 Tech Stack & Tools
 
-- I don’t build demos. I build stuff people actually need.  
-- Every project I work on is real, solves a real workflow, or saves someone hours per week.  
-- I use agents, APIs, and AI not as buzzwords — but as tools to get real shit done.  
+### 💡 Languages & Backend  
+`Python` · `FastAPI` · `JavaScript` · `Node.js` · `YAML` · `Bash`
 
-I ship fast. I don’t wait for perfect. If the problem is clear, I’m already building the solution.
+### 🧠 AI & Automation  
+`OpenAI API` · `Gemini` · `LangChain` · `Playwright` · `Pandas` · `PyMuPDF`
 
----
+### 🧩 Frontend & UI  
+`Next.js` · `React` · `Tailwind CSS` · `Lottie` · `Framer Motion` · `Figma`
 
-## 🧱 Philosophy & Workflow
-
-- 💥 Build fast, polish later.  
-- 🧵 Ship in threads. Talk in code.  
-- 🔁 Feedback loop: user pain → prototype → iterate  
-- 🧠 Agents > apps. APIs > GUIs.  
-- ✂️ Cut bloat. Cut friction. Cut excuses.  
+### ☁️ Infra & Hosting  
+`GCP` · `Vercel` · `Render` · `Supabase` · `MongoDB` · `Google Sheets API`
 
 ---
 
-## 🎯 GitHub Goals
+## 🧱 Build Philosophy
 
-- 🔓 Open-source more of my agent infrastructure  
-- 🔧 Contribute to projects like `responsively-org` and LangChain  
-- 🧱 Build in public, one atomic commit at a time  
-- 👨‍🔧 Collaborate with other devs, founders, and toolmakers  
+- 💥 Build fast, polish later  
+- 🧵 Ship in threads, talk in code  
+- 🔁 User pain → prototype → iterate  
+- 🧠 Agents > apps · APIs > GUIs  
+- ✂️ Cut bloat, cut friction, cut excuses
 
----
-
-## 📍 Let’s Collaborate
-
-- Want to integrate AI into your workflow?  
-- Building something with documents, contracts, or data?  
-- Need a backend to bring your product to life?  
-
-→ [DM me on Twitter](https://x.com/Saisharan0099)  — I'm always up for building something cool.
+> I don’t build demos. I build tools that people use — and depend on.
 
 ---
 
+## 📈 GitHub Stats
+
+| Stats | Top Languages |
+| --- | --- |
+| ![Sai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Saisharan0099&show_icons=true&theme=radical&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Saisharan0099&layout=compact&theme=radical) |
+
+---
+
+## 🌐 Connect With Me
+
+<p align="left">
+  <a href="https://x.com/Saisharan0099" target="_blank">
+    <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  </a>
+  <a href="https://github.com/Saisharan0099" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  </a>
+</p>
 
 ---
 
