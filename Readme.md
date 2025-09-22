@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Saisharan0099">
+  <a href="https://github.com/Saisharan0103">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=800&lines=Building+AI-First+Tools+That+Actually+Work;Automation+%E2%9A%A1+Efficiency+%E2%9C%85+Real-World+Impact;From+Prompt+to+Product+%7C+From+Problem+to+Prototype;Shipping+Fast+%E2%80%94+Solving+Hard+Problems+with+Code" alt="Typing SVG" />
   </a>
 </p>
@@ -105,17 +105,17 @@
 
 | Stats | Top Languages |
 | --- | --- |
-| ![Sai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Saisharan0099&show_icons=true&theme=radical&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Saisharan0099&layout=compact&theme=radical) |
+| ![Sai's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Saisharan0103&show_icons=true&theme=radical&count_private=true) | ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Saisharan0103&layout=compact&theme=radical) |
 
 ---
 
 ## 🌐 Connect With Me
 
 <p align="left">
-  <a href="https://x.com/Saisharan0099" target="_blank">
+  <a href="https://x.com/Saisharan0103" target="_blank">
     <img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
-  <a href="https://github.com/Saisharan0099" target="_blank">
+  <a href="https://github.com/Saisharan0103" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
 </p>
