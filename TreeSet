@@ -1,0 +1,74 @@
+class Student implements Comparable<Student> {
+    int studentId;
+    String name;
+    int semester;
+
+    public Student(int studentId, String name, int semester) {
+        this.studentId = studentId;
+        this.name = name;
+        this.semester = semester;
+    }
+
+    // equality based on studentId
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null || getClass() != obj.getClass()) return false;
+
+        Student other = (Student) obj;
+        return this.studentId == other.studentId;
+    }
+
+    @Override
+    public int hashCode() {
+        return Integer.hashCode(studentId);
+    }
+
+    // for sorting (TreeSet)
+    @Override
+    public int compareTo(Student s) {
+        return this.studentId - s.studentId;
+    }
+}
+
+
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+
+        // Subject 1
+        List<Student> compilers = new ArrayList<>();
+        compilers.add(new Student(101, "Ron", 1));
+        compilers.add(new Student(102, "Angela", 9));
+        compilers.add(new Student(103, "Hazel", 5));
+
+        // Subject 2
+        List<Student> algorithms = new ArrayList<>();
+        algorithms.add(new Student(104, "David", 3));
+        algorithms.add(new Student(105, "Alan", 4));
+        algorithms.add(new Student(103, "Hazel", 5));
+        algorithms.add(new Student(101, "Ron", 1));
+
+        // 🔥 Step 1: Combine + remove duplicates
+        Set<Student> uniqueStudents = new TreeSet<>();
+        uniqueStudents.addAll(compilers);
+        uniqueStudents.addAll(algorithms);
+
+        // 🔥 Step 2: Print sorted unique students
+        System.out.println("List of students who applied:");
+        for (Student s : uniqueStudents) {
+            System.out.println("Id: " + s.studentId + " Name: " + s.name + " Sem: " + s.semester);
+        }
+
+        // 🔥 Step 3: Find common students
+        Set<Student> common = new HashSet<>(compilers);
+        common.retainAll(algorithms);
+
+        System.out.println("\nStudents in multiple subjects:");
+        for (Student s : common) {
+            System.out.println(s.name);
+        }
+    }
+}
+
